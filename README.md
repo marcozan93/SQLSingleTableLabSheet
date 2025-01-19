@@ -1,7 +1,7 @@
 # SQLSingleTableLabSheet
 An example repository to help set up codespaces for SQLite for use with the Cloud and Databases Online course at the University of Bath
 
-Extensions needed: SQLite and SQLite Viewer.
+Extensions needed: <b>SQLite</b> and <b>SQLite Viewer</b>.
 
 In the search bar I can look for: ```>sqlite``` and the options ```Use database```.
 
