@@ -26,3 +26,11 @@ INSERT INTO pet (name,owner,species,sex,checkups, birth,death)VALUES ('Fluffy','
 ('Whistler','Gwen','bird','',1,'2001-12-09',NULL),
 ('Slim','Benny','snake','m',5,'2001-04-29',NULL);
 ```
+
+## Import data from .txt to Table
+
+1. Create the table within the database
+2. From the terminal: ```sqlite3 testDB.db``` specify the name of the database to work on.
+3. The .txt file included tabs as separation, hence set ```.mode tabs``` otherwise use ',' for a .csv.
+4. Load the data with: ```.import /workspaces/SQLSingleTableLabSheet/data/delivery.txt Delivery```
+5. Quit sqlite3 from terminal with ```.exit```
